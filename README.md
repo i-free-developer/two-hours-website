@@ -22,4 +22,4 @@ hub create # this creates the associated repo on Github!```
 git push origin gh-pages # we push the gh-pages branch, not master!```
 ```
 
-### Now you can build the URL http://xiaohupei.github.io/two-hours-website (this is the URL built automatically by Github) and have a look at your masterpiece online! Share the link on Slack with your buddies.
+### Now you can build the URL https://xiaohupei.github.io/two-hours-website (this is the URL built automatically by Github) and have a look at your masterpiece online! Share the link on Slack with your buddies.
