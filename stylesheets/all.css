@@ -26,6 +26,21 @@ html {
 body {
   margin: 0; }
 
+.qrcode {
+  margin: auto;
+}
+.qrcode:hover {
+  transition: all 200ms ease-in;
+  transform: scale(4.5);
+  margin-bottom: 240px;
+  z-index: 2048 !important;
+}
+.qrcode-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 /* line 33, /Users/thibaultgenaitay/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/bootstrap-sass-3.3.5.1/assets/stylesheets/bootstrap/_normalize.scss */
 article,
 aside,
@@ -9623,6 +9638,7 @@ button.close {
     padding: 20px;
     box-shadow: 1px 1px 3px #F0F0F0;
     position: relative;
+    z-index: 1;
     margin: 50px 0; }
   /* line 11, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/pages/_home.css.scss */
   .readme .download {
