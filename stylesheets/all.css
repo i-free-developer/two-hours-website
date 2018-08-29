@@ -32,7 +32,7 @@ body {
 .qrcode:hover {
   transition: all 200ms ease-in;
   transform: scale(4.5);
-  margin-bottom: 240px;
+  margin-bottom: 280px;
   z-index: 2048 !important;
 }
 .qrcode-div {
